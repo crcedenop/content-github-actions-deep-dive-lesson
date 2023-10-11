@@ -26,7 +26,7 @@ jobs:
           node-version: 14
       - name: build site
         run: |
-          cd / 
+          cd /home/runner/work/content-github-actions-deep-dive-lesson/ 
           npm ci
           npm run build
       - name: deploy files to bucket
